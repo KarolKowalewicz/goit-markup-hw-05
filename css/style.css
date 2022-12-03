@@ -248,6 +248,8 @@ img {
 .button:hover {
   transform: scale(1.1);
   transition: 2s;
+    color: var(--color-white-dark);
+  background-color: var(--hover-color);
 }
 
 .button-list {
@@ -256,10 +258,7 @@ img {
   list-style: none;
 }
 
-.button:hover {
-  color: var(--color-white-dark);
-  background-color: var(--hover-color);
-}
+
 
 .button-bnner {
   color: var(--color-white-dark);
@@ -624,7 +623,7 @@ ul {
 .modal {
   width: 100px;
   height: 100px;
-  position: fixed;
+  position: absolut;
   z-index: 1;
   transition-property: visibility, opacity, transform;
   transition-duration: 2s;
