@@ -53,16 +53,15 @@ img {
   width: 100%;
   max-width: 1200px;
 }
+
 .container-klients {
   width: 1200px;
-  /* width: 100%; */
   box-sizing: border-box;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
   padding: 0px 15px;
-  /* margin: 94px 215px 0px; */
 }
 .client-box {
   display: flex;
@@ -117,7 +116,6 @@ img {
 
 .margin-bottom {
   border-bottom: 2px solid #ececec;
-  padding: 32px;
 }
 
 .margin-button {
@@ -128,6 +126,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 32px;
   /* margin-bottom: 30px; */
 }
 
@@ -652,7 +651,6 @@ ul {
   visibility: visible;
   display: block;
   border-radius: 4px;
-  
 }
 
 .is-hidden {
@@ -703,7 +701,7 @@ Drop shadow X0  Y2  B1 S0 #000000 20% */
   border-radius: 50%;
   cursor: pointer;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
+}
 
 .button-close {
   position: absolute;

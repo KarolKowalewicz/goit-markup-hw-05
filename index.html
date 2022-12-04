@@ -16,15 +16,15 @@
   </head>
 
   <body>
-    <header class="margin-agencja">
-      <div class="container header-wrapper margin-bottom">
+    <header class="margin-bottom">
+      <div class="container header-wrapper">
         <nav>
           <ul class="button-list">
             <li class="list-menu">
               <a href="#" class="logo-text-black"><span class="logo-text-blue">Web</span>Studio</a>
             </li>
             <li class="list-menu">
-              <a href="./agencja.html" class="active">Agencja</a>
+              <a href="./index.html" class="active">Agencja</a>
             </li>
             <li class="list-menu"><a href="./portfolio.html" class="navigation">Portfolio</a></li>
             <li class="list-menu"><a href="#" class="navigation">Kontakt</a></li>
@@ -50,6 +50,8 @@
           </li>
         </ul>
       </div>
+    </header>
+    <div>
       <div class="banner-background container-big">
         <div>
           <h1 class="title-banner">
@@ -57,16 +59,11 @@
             DLA WASZEGO BIZNESU
           </h1>
           <button type="button" class="button-banner" data-modal-open>Zamów usługe</button>
-                    
-
-    </div>
-
-
         </div>
       </div>
-    </header>
+    </div>
 
-    <main>
+    <main class="section">
       <div class="container">
         <div class="beleczka">
           <div class="beleczka-kafelek box-border">
@@ -443,22 +440,20 @@
         </div>
       </div>
     </footer>
-      
-    
+
     <!-- <div class="modal is-hidden" data-modal>
       <button class="close-button" data-modal-close>X</button>
     </div> -->
 
-      <div class="backdrop  is-hidden" data-modal>
-         <div class="modal">
-            <button type="button" class="close-button" data-modal-close>
-              <svg class="button-close" width="18" height="18">
-               <use href="./images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-         </div>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <svg class="button-close" width="18" height="18">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
       </div>
-
+    </div>
 
     <script src="./js/modal.js"></script>
   </body>
