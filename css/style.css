@@ -127,7 +127,6 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 32px;
-  /* margin-bottom: 30px; */
 }
 
 .button-kategory {
@@ -181,10 +180,22 @@ img {
   color: var(--hover-color);
 }
 
-.active {
-  text-decoration: none;
+
+.active-link {
+  position: relative;
+    text-decoration: none;
   font-size: 14px;
   color: var(--hover-color);
+}
+.active-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 4px;
+  bottom: -45px;
+  background: #2196f3;
+  border-radius: 2px;
 }
 
 .envelope:hover,
@@ -295,12 +306,10 @@ a:visited {
 .portfolio-tabela {
   display: flex;
   align-items: center;
-  /* align-content: space-between; */
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   gap: calc((100%- 60px) / 3);
-  /* column-gap: calc((100%- 60px) / 3); */
   border-top: 1px solid transparent;
 }
 
