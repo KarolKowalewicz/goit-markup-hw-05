@@ -1,6 +1,3 @@
-/*    lepiej tego nie robić
- *,*::after,*::before {margin: 0;padding: 0;} */
-
 :root {
   --color-black: #212121;
   --color-white: #ffffff;
@@ -55,14 +52,13 @@ img {
 }
 .container-klients {
   width: 1200px;
-  /* width: 100%; */
+
   box-sizing: border-box;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
   padding: 0px 15px;
-  /* margin: 94px 215px 0px; */
 }
 .client-box {
   display: flex;
@@ -76,7 +72,6 @@ img {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-
   color: var(--color-grey-light);
 }
 
@@ -128,7 +123,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
 .button-kategory {
@@ -207,10 +202,6 @@ img {
   color: var(--hover-color);
 }
 
-a:visited {
-  color: inherit;
-}
-
 .banner-background {
   margin: auto;
   background-color: #2f303a;
@@ -223,7 +214,6 @@ a:visited {
   object-fit: cover;
   box-shadow: inset 50px 50px 50px 50px rgba(47, 48, 58, 0.4),
     inset 1600px 600px 50px 50px rgba(47, 48, 58, 0.4);
-    position: relative;
 }
 
 .banner-background-team {
@@ -258,6 +248,8 @@ a:visited {
 .button:hover {
   transform: scale(1.1);
   transition: 2s;
+    color: var(--color-white-dark);
+  background-color: var(--hover-color);
 }
 
 .button-list {
@@ -266,14 +258,12 @@ a:visited {
   list-style: none;
 }
 
-.button:hover {
-  color: var(--color-white-dark);
-  background-color: var(--hover-color);
-}
 
-.button-banner {
+
+.button-bnner {
   color: var(--color-white-dark);
   background-color: var(--hover-color);
+
   line-height: 1;
   letter-spacing: 2px;
   white-space: normal;
@@ -296,12 +286,10 @@ a:visited {
 .portfolio-tabela {
   display: flex;
   align-items: center;
-  /* align-content: space-between; */
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   gap: calc((100%- 60px) / 3);
-  /* column-gap: calc((100%- 60px) / 3); */
   border-top: 1px solid transparent;
 }
 
@@ -310,10 +298,6 @@ a:visited {
   flex-direction: column;
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
-}
-.portfolio-item:hover {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .img-portfolio {
@@ -327,8 +311,8 @@ a:visited {
   width: 270px;
   height: 428px;
   text-align: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(117, 117, 117, 0.5);
+  box-shadow: 0 5px 10px -2px rgba(117, 96, 96, 0);
   border-radius: 5px;
   margin: 15px;
 }
@@ -634,25 +618,21 @@ ul {
   background-color: var(--hover-color);
   fill: var(--color-white-dark);
 }
-
-
-
 /* zadanie 5  modal.js - button */
 
 .modal {
   width: 100px;
   height: 100px;
-  position: absolute;
+  position: absolut;
   z-index: 1;
   transition-property: visibility, opacity, transform;
   transition-duration: 2s;
-  background-color: #b4f321;
+  background-color: #2196f3;
   transform: translateX(-50%) translateY(-50%) scale(1) rotate(720deg) skew(0deg, 0deg);
   opacity: 1;
   visibility: visible;
   display: block;
 }
-
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
@@ -677,22 +657,3 @@ Drop shadow X0  Y2  B1 S0 #000000 20% */
 .box-xubic:hover {
   background-color: aqua;
 }
-
-.backdrop {
-background-color: rgba(0, 0, 0, 0.08);
-}
-
-.close-button {
-position: absolute;
-top: 8px;
-right: 8px;
-width: 40px;
-height: 40px;
-background-color: #fff;
-border: 1px solid rgba(0, 0, 0, 0.1);
-border-radius: 50%;
-cursor: pointer;
-}
-
-
-/* to powyzej do zadania 5  poukładać  :)  */
