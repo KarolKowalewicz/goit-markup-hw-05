@@ -278,6 +278,7 @@ a:visited {
 .button:hover {
   color: var(--color-white-dark);
   background-color: var(--hover-color);
+  
 }
 
 .button-banner {
@@ -303,19 +304,11 @@ a:visited {
 }
 
 .portfolio-tabela {
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: calc((100%- 60px) / 3);
-  border-top: 1px solid transparent; */
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
-/*  */
-
+/* to do sprawdzenia   */
 .portfolio-list {
   display: flex;
   gap: 30px;
@@ -366,8 +359,6 @@ a:visited {
   padding: 20px 24px;
 }
 
-/*  */
-
 .portfolio-item {
   display: inline-block;
   flex-direction: column;
@@ -396,12 +387,12 @@ a:visited {
   margin: 15px;
 }
 
-.drop-shadow {
+/* .drop-shadow {
   width: 150px;
   height: 200px;
   display: block;
   background: white;
-}
+} */
 
 .project-info {
   display: block;
@@ -458,6 +449,7 @@ a:visited {
 .footer-display-socjal {
   margin-left: 50px;
 }
+
 h3 {
   margin-top: -20px;
   margin-bottom: 20px;
@@ -522,7 +514,6 @@ h3 {
 }
 .beleczka {
   display: flex;
-
   justify-content: space-between;
   justify-items: center;
   flex-wrap: wrap;
@@ -570,11 +561,6 @@ h3 {
   height: 56px;
   margin: 0 auto;
 }
-.icon-box-socjal {
-  width: 44px;
-  height: 44px;
-  padding: 20px;
-}
 
 .icon-client {
   display: flex;
@@ -588,6 +574,7 @@ h3 {
 .icon-client:hover {
   fill: var(--hover-color);
 }
+
 .center {
   display: flex;
   justify-content: center;
@@ -698,8 +685,6 @@ ul {
   fill: var(--color-white-dark);
 }
 
-/* zadanie 5  modal.js - button */
-
 .modal {
   width: 528px;
   height: 581px;
@@ -716,7 +701,6 @@ ul {
   display: block;
   border-radius: 4px;
 }
-
 
 .is-hidden {
   pointer-events: none;
